@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Welcome Home</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">  
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <main class="login-wrapper">
+        <div class="card-container">
+
+            <section class="artwork-section" aria-label="Latar Belakang Artistik">
+                <img src="gambar.jpg" alt="Motif bintang pink dan kuning" class="artwork-image">
+            </section>
+
+            <section class="form-section" aria-label="Formulir Login Pengguna">
+                <div class="form-content">
+                    
+                    <header class="form-header">
+                        <img src="in-love.png" alt="Logo In Love" class="home-icon">
+                        <h1>Welcome home</h1>
+                        <p class="subtitle">Please enter your details.</p>
+                    </header>
+
+                    <button type="button" class="btn-google" aria-label="Sign in with Google">
+                        <i class="ri-google-fill" aria-hidden="true"></i>
+                        <span>Sign in with Google</span>
+                    </button>
+
+                    <div class="divider" role="separator" aria-label="atau masuk dengan email">
+                        <span>or</span>
+                    </div>
+
+                    <form action="#" method="POST" class="login-form">
+                        <div class="input-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required autocomplete="username" aria-label="Masukkan Email">
+                            <i class="ri-mail-line input-icon" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="password" id="password" name="password" placeholder="Password" required autocomplete="current-password" aria-label="Masukkan Password">
+                            <i class="ri-eye-off-line input-icon" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="form-options">
+                            <label class="remember-me">
+                                <input type="checkbox" name="remember" id="remember">
+                                <span>Remember Me</span>
+                            </label>
+                            <a href="#" class="forgot-link">Forgot password?</a>
+                        </div>
+
+                        <button type="submit" class="btn-submit" aria-label="Tombol Sign In">Sign In</button>
+                    </form>
+
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+</body>
+</html>
